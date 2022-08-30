@@ -18,18 +18,19 @@
 					embeddedservice_bootstrap.settings.language = ''; // For example, enter 'en' or 'en-US'
 
 					embeddedservice_bootstrap.init(
-						'00D7j0000004ZuF',
-						'ChatAmilOne',
-						'https://uhgbrasil--pocmiaw.sandbox.my.site.com/ESWChatAmilOne1661428108497',
+						'00D8G0000000O0p',
+						'ChatAmilOneWeb',
+						'https://uhgbrasil--miaw.sandbox.my.salesforce.com',
 						{
-							scrt2URL: 'https://uhgbrasil--pocmiaw.sandbox.my.salesforce-scrt.com'
+							scrt2URL: 'https://uhgbrasil--miaw.sandbox.my.salesforce-scrt.com'
 						}
 					);
 				} catch (err) {
 					console.error('Error loading Embedded Messaging: ', err);
 				}
 			};
-		</script>
-		<script type='text/javascript' src='https://uhgbrasil--pocmiaw.sandbox.my.site.com/ESWChatAmilOne1661428108497/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+	</script>
+	<script type='text/javascript' src='https://service.force.com/embeddedservice/asyncclient/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 	</body>
 </html>
